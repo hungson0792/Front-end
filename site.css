@@ -1,0 +1,119 @@
+body {
+    background-color: rgba(240, 240, 240, 0.74);
+    color: #000305;
+    font-size: 87.5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    text-align: left;
+}
+.body {
+    margin: 0  auto;
+    width: 70%;
+    clear: both;
+}
+.main-header a {
+    display: block;   
+    height: 60px;
+    margin: 0 0 0 15px;
+    font-size: 0;
+}
+.main-header a:link, .main-header a:visited {
+    color: #CF5C3F;
+}
+.main-header a:hover, .main-header a:active {
+    color: #fff;
+}
+a  {
+    text-decoration: none;    
+}
+a:link, a:visited {
+    color: #CF5C3F;
+}
+a:hover, a:active {
+    color: #fff;
+    background-color: #CF5C3F;
+}
+nav {
+     background-color: #666;
+     height: 40px;
+     border-radius: 5px;     
+}
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+}
+nav ul li {
+    float: left;
+    display: inline;
+}
+nav a:link, nav a:visited {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav a:hover, nav a:active, nav .active a:link, nav .active a:visited {
+    background-color: #CF5C3F;
+    text-shadow: none;
+}
+.main-content {
+    line-height: 25px;
+    border-radius: 5px;
+}
+.content {
+    width: 70%;
+    float: left;
+}
+.top-content {
+    background-color: #fff;
+    border-radius: 5px;  
+    padding: 3% 5%;
+    margin-top: 2%;  
+}
+.bottom-content {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 2%;
+    padding: 3% 5%;
+}
+.post-info {
+    font-style: italic;
+    color: #999;
+    font-size: 90%;
+}
+.top-sidebar {
+    width: 23%;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 2% 0 2% 3%;
+    padding: 2% 2%;
+}
+.middle-sidebar {
+    width: 23%;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 2% 0 2% 3%;
+    padding: 2% 2%;
+}
+.bottom-sidebar {
+    width: 23%;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 2% 0 2% 3%;
+    padding: 2% 2%;
+}
+.main-footer {    
+    width: 100%;
+     float: left;
+     height: 40px;
+     border-radius: 5px;
+     background-color: #666;
+     margin: 2% 0;
+}
+.main-footer p {
+    width: 92%;
+    margin: 10px auto;
+    color: #fff;    
+}
