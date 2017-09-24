@@ -1,0 +1,22 @@
+.bem_main-header {
+    margin: 5px 0;
+    .display-flex;  
+    &__logo {
+        margin-right: 5px;
+        align-self: center;
+        
+    }
+    &__top-ads {
+        flex: 1;    
+    }
+}
+@media @MQ_S {
+    .bem_main-header {
+        margin: 5px 0;
+        .display-flex;
+        flex-direction: column;  
+        &__top-ads-header {
+            width: 96%;
+        }         
+    }
+}
