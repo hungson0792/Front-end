@@ -8,11 +8,11 @@
     padding: 0;
     &--active {
         background-color: #CF5C3f;
-        margin-left: 15px;
     }
 }
 .bem_nav-bar__menu-item {    
-    display: inline-block;
+    display: block;
+    text-align: center;
 }
 .bem_nav-bar__menu-link {
     display: block;
@@ -21,14 +21,20 @@
     padding: 10px;
     &:active {
         background-color: #CF5C3f;
+        
     }
 }
-@media @MQ_S {
-    .bem_nav-bar__menu-item {    
-        display: block;
+@media @MQ_M {
+    .bem_nav-bar {
         text-align: center;
     }
+}
+@media @MQ_M-L {
+    .bem_nav-bar__menu-item {    
+        display: inline-block;
+        text-align: none;
+    }
     .bem_nav-bar--active {        
-        margin-left: 0;
+        margin-left: 15px;
     }
 }
